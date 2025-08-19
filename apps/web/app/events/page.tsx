@@ -13,26 +13,26 @@ const Page = () => {
     >
       <div className="flex flex-col lg:flex-row w-full min-h-[calc(100vh-4rem)] gap-4">
 
-        {/* Sidebar only on desktop */}
+        {/*========= Sidebar only on desktop=========== */}
         <div className="hidden lg:flex w-1/5 bg-white rounded-xl p-4">
           <SideBar />
         </div>
 
-        {/* Main content */}
+        {/* =============Main content============= */}
         <div className="w-full lg:w-4/5 flex flex-col gap-4 h-auto lg:h-[calc(100vh-4rem)]">
 
-          {/* Normal Header visible only on small screens */}
+          {/*================ Normal Header visible only on small screens============= */}
           <div className=" lg:hidden flex flex-col gap-4">
             <MobileSidebar />
             <Header />
           </div>
 
-          {/* Desktop Header visible only on large screens */}
+          {/*============= Desktop Header visible only on large screens============== */}
           <div className="hidden lg:block">
             <Header />
           </div>
 
-          {/* Tasks section */}
+          {/*============= Tasks section============== */}
           <div className="flex bg-white rounded-xl p-4 overflow-auto flex-1">
             <Tasks />
           </div>
