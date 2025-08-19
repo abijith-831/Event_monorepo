@@ -53,6 +53,12 @@ pnpm dev or pnpm next dev
 http://localhost:3000/events 
 
 
+
+## Screenshot
+![Event Manager Screenshot](./screenshot.png)
+
+
+
 **Live Demo You can view the app live here**: 
 https://event-monorepo-web.vercel.app/events
 
